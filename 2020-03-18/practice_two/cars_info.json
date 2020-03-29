@@ -1,0 +1,8 @@
+{
+    "cars": [
+        {"brand": "Ваз", "model": "Ока", "manifacture_year": 1990, "gasoline_consumption": 5.6},
+        {"brand": "LADA", "model": "XRay 1.6", "manifacture_year": 1991, "gasoline_consumption": 1.598},
+        {"brand": "AUDI", "model": "A6 2.8", "manifacture_year": 2000, "gasoline_consumption": 11.5},
+        {"brand": "AUDI", "model": "A6 2.1", "manifacture_year": 2001, "gasoline_consumption": 5.5}
+    ]
+}
