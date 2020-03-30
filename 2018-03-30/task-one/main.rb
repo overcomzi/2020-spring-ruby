@@ -70,7 +70,11 @@ def solve_with_iterators(array)
   cur_sign = sign(array[0])
   changed_sign_positions = []
 
-  change_count = array.count { |num| cur_sign != sign(num) }
+  change_count = array.count do |num|
+    is_bol = cur_sign != sign(num)
+    cur_sign = sign(num)
+    is_bol
+  end
 
   array.each_with_index do |num, idx|
     changed_sign_positions << idx if cur_sign != sign(num)
